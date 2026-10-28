@@ -1,0 +1,15 @@
+jenkins:
+  systemMessage: "Jenkins on Railway. Admin login is generated at deploy time (variables JENKINS_ADMIN_PASSWORD, JENKINS_API_TOKEN)."
+  numExecutors: 2
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+        - id: "admin"
+          password: "${JENKINS_ADMIN_PASSWORD}"
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+unclassified:
+  location:
+    url: "${JENKINS_URL}"
