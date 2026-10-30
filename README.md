@@ -1,5 +1,9 @@
 # jenkins-railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jenkins-or-just-updated-cicd-server-gene?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
+**Deploy on Railway:** [Jenkins template](https://railway.com/deploy/jenkins-or-just-updated-cicd-server-gene?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 Wrapper image for the Railway Jenkins template. It is the official `jenkins/jenkins:lts-jdk21`
 image (pinned by digest) with:
 
